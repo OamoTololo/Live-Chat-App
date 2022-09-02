@@ -103,3 +103,72 @@ form .name-details .field:last-child {
 .form .link:hover {
     text-decoration: underline;
 }
+
+/* User css styling room. */
+
+.users {
+    padding:  25px 30px;
+}
+.users header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: 5px solid e6e6e6;
+}
+.wrapper img {
+    object-fit: cover;
+    border-radius: 50%;
+}
+.users header .content {
+    display: flex;
+}
+.users header .content img {
+    height: 85px;
+    width:85px;
+}
+.users header .details {
+    margin-left: 18px;
+}
+.users head .details span {
+    font-size: 18px;
+    font-weight: 500;
+}
+.users header .logout {
+    color: #fff;
+    font-size: 17px;
+    padding: 10px 15px;
+    background: #333;
+    border-radius: 5px;
+}
+.users .search {
+    margin: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.users .search .text {
+    font-size: 18px;
+}
+.users .search input {
+    position: absolute;
+    height: 42px;
+    width: calc(100% - 50px);
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.users .search button {
+    width: 47px;
+    height: 42px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #333;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 0 5px 0 5px;
+}
